@@ -496,18 +496,24 @@
                           placeholder="Text input"></textarea>
             </div>
 
-            <div class="checkbox-field">
-                <input type="checkbox" name="user-privacy" id="user-privacy" class="modal-checkbox-input visually-hidden"
-                       value="true">
-                <label for="user-privacy" class="checkbox-label">
-                    <span class="modal-checkbox">
-                        <svg class="checkbox-icon" width="10" height="8">
-                            <use href="./images/icons.svg#icon-check"></use>
-                        </svg>
-                    </span>
-                    I accept the terms and conditions of the <a href="#" class="privacy-link">Privacy Policy</a>
-                </label>
-            </div>
+          <div class="modal-checkbox-block">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="modal-checkbox-input visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="modal-checkbox-label">
+              <span class="modal-checkbox">
+                <svg width="10" height="8" class="modal-checked-svg">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-checkbox-link">Privacy Policy</a>
+            </label>
+          </div>
 
             <button type="submit" class="modal-submit">Send</button>
         </form>
